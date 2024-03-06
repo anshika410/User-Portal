@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Portal</title>
+    <link rel="stylesheet" href="./info_block.css">
+    <script src="./info_block.js"></script>
+</head>
+<body>
+    <div class="ontainer">
+        <h2>
+            Please enter the form details
+        </h2>
+        <input type="text" id="name" placeholder="Name">
+        <select id="accountType">
+            <option value="domestic">Domestic</option>
+            <option value="international">International</option>
+        </select>
+        <select id="countryCode">
+            <option value="+1">+1 (USA)</option>
+            <option value="+44">+44 (UK)</option>
+            <option value="+91">+91 (IND)</option>
+        </select>
+        <input type="text" id="contactNumber" placeholder="Contact Number">
+        <button onclick="addUser()">Add User</button>
+    </div>
+
+    <div id="userList" class="container">
+        <h2>User Blocks</h2>
+    </div>
+    
+</body>
+</html>
